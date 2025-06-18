@@ -1,0 +1,11 @@
+# Ignora a pasta node_modules (onde ficam as dependências)
+node_modules/
+
+# Ignora arquivos de script do Windows (.cmd e .ps1)
+*.cmd
+*.ps1
+
+# Ignora arquivos temporários/desnecessários
+.DS_Store
+.env
+npm-debug.log
